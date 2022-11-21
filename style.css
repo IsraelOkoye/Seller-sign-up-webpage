@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.mySection{
+    display: grid;
+    grid-template-columns:auto auto ;
+    justify-content: space-around;
+    position: relative;
+    top: 10em;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+span{
+    color: rgb(132, 132, 132);
+    font-weight: normal;
+}
+
+#myfirstBtn{
+    background-color:rgb(80, 113, 183) ;
+    color: white;
+    padding: 7px 10px 25px 10px;
+    border: none;
+    font-size: 1.1em;
+    position: relative;
+    left: 6.2em;
+    top: 0.3em;
+    height: 25px;
+}
+
+.mydealerDiv{
+    display: flex;
+
+}
+
+hr{
+    width: 585px;
+    position: relative;
+    right:0.5px ;
+}
+
+object{
+    height: 3px;
+    width: 150px;
+    position: relative;
+    right: 100px;
+}
+
+#firstObject{
+    
+    background-color: #84D195;
+    position: relative;
+    right:1px ;
+}
+
+#secondObject{
+    background-color:#DAA3DB;
+    width: 100;
+    position: relative;
+    right:6px ;
+}
+
+#thirdObject{
+    background-color:#A1B6DB ;
+    position: relative;
+    right: 11px;;
+}
+
+#fourthObject{
+    background-color: #EDA2A4;
+    width:100px ;
+    position: relative;
+    right:18px ;
+}
+
+#fifthObject{
+    background-color:#84D195;
+    width: 40px;
+    position: relative;
+    right:25px ;
+}
+
+.yes{
+    background: #84D195;
+}
+
+img{
+    position: relative;
+    top: 0.4em;
+    left: 35px;
+    height: 23rem;
+}
+
+#star-img{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+#input1{
+    width: 350px;
+    height: 8vh;
+    border: none;
+    border-radius: 5px;
+    outline: 2px solid #F1F1F1;
+}
+
+#input2{
+    outline: 1px solid #F1F1F1;
+    width: 350px;
+    height: 8vh;
+    border: none;
+    border-radius:5px;
+}
+#input1:hover{
+    outline: 2px solid #2BBBAD;
+}
+#input2:hover{
+    outline: 2px solid #2BBBAD;
+}
+
+#forgotpass{
+    color: #0B88B9;
+    position: relative;
+    left: 200px;
+    text-decoration: none;
+    
+}
+#forgotpass:hover{
+    text-decoration: underline;
+}
+
+#second-Btn{
+    background-color: #009688;
+    color:#FFFFFF ;
+    font-weight: bold;
+    width: 350px;
+    height: 8vh;
+    border: none;
+    border-radius:5px;
+}
+
+p{
+    text-align: center;
+}
+
+#mybtnimg{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 1px;
+}
+
+#myAnchor{
+    color: #6E4F8F;
+    text-decoration: none;
+    position: relative;
+    top: 2.5rem;
+    left: 10.5em;
+    color: #334F8F;
+    margin-top: 3px;
+}
+#myAnchor:hover{
+    text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#lastSection{
+    outline:1px solid #F1F1F1;
+    border-radius:  10px;
+    padding: 20px;
+    height: 21em;
+}
+
+#Delastobject{
+    background-color: #E2E2E2;
+    height: 0.25em;
+    width: 52em;
+    position: relative;
+    left: 0.1em;
+}
+
+a{
+    text-decoration: none;
+}
+
+#lastBtn{
+    display: flex;
+    gap: 2.5rem;
+    width: 17rem;
+    position: relative;
+    left: 3em;
+    top: 0.8em;
+    border-radius: 0.4rem;
+    border: 1px solid  #E2E2E2;
+    background-color: white;
+    color: black;
+    justify-content: center;
+}
+#loginSpan{
+    position: relative;
+    top: 0.4rem;
+}
+
+#footerSection{
+    position: relative;
+    top: 320px;
+    text-align: center;
+}
+
+
+
+
